@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5 {
 		display : flex;
 	justify-content: space-between;
 		flex-wrap: wrap;
+		padding:10px;
 
 	}
 
@@ -80,14 +81,13 @@ h1, h2, h3, h4, h5 {
 		margin:15px;
 		text-decoration: none;
 		color: gray;
-		padding:10px;
+	
 
 
 	}
 	.logobox{
 		
 		display: flex;
-		padding: 10px;
 
 	}
 	.container2{

@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.container1{
+		
+    display : flex;
+justify-content: space-between;
+    flex-wrap: wrap;
+    padding:10px;
+
+}
+
+nav a{
+		
+    justify-content: space-between;
+    margin:15px;
+    text-decoration: none;
+    color: gray;
+
+}
+.logobox{
+    display: flex;
+
+}
+
+.container2{
+    display: flex;
+}
+.servicesheadimg{
+    display:flex;
+    margin: 30px;
+    padding: 30px;
+}
+.h1p{
+    margin: 15px;
+
+}
+.container3{
+    display :flex;
+    justify-content: space-around;
+    border : solid black;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    align-content: space-around;
+    padding:20px;
+
+
+}
+
+.cont1 {
+    
+    width: 15%;
+    background: lightgray;
+    border: 1px solid black;
+    margin: 5px;
+    float:left;
+}
+
+.cont2 {
+    
+    width: 15%;
+    background: lightgray;
+    border: 1px solid black;
+    margin: 5px;
+    float: right;
+}
+
+.cont3{
+    float: left;
+    width: 15%;
+    background: lightgray;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.cont4{
+    float: right;
+    width: 15%;
+    background: lightgray;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.cont5{
+    float: left;
+    width: 15%;
+    background: lightgray;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.cont6{
+    float: right;
+    width: 15%;
+    background: lightgray;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.cont1 p{
+    text-align: justify;
+}
+
+.cont2 p{
+    text-align: justify;
+}
+
+.cont3 p{
+    text-align: justify;
+}
+
+.cont4 p{
+    text-align: justify;
+}
+
+.cont5 p{
+    text-align: justify;
+}
+
+.cont6 p{
+    text-align: justify;
+}
+
+
+
+.container5{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.h3p{
+    margin:15px;
+    padding:10px;
+    text-align: justify;
+}
+.h3p p{
+    text-align: justify;
+}
+
+ul{
+    margin:15px;
+    padding: 5px;
+}
+p{
+    text-align: center;
+}
